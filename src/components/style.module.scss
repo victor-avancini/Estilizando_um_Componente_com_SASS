@@ -1,0 +1,31 @@
+.header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 2.5rem;
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        gap: 2rem;
+
+        button {
+            background-color: #42EF9C;
+            border: none;
+            border-radius: 255px;
+            width: 136px;
+            height: 49px;
+            font-weight: bold;
+        }
+    }
+}
